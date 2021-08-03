@@ -1,6 +1,6 @@
 Package: bingo
 Title: Shiny App to play bingo
-Version: 0.0.1
+Version: 0.0.2
 Authors@R: person('Italo', 'Cegatta', email = 'italocegata@gmail.com', role = c('cre', 'aut'))
 Description: Here you will be able to create Bingo cards and generate numbers to play with friends.
 License: What license is it under?
