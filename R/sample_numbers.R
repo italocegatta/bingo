@@ -18,7 +18,7 @@ bingo_samples <- function() {
   
 }
 
-#' Grid of Bingo's numbers
+#' Grid of Bingo numbers
 #'
 #' @export
 bingo_grid <- function() {
@@ -36,5 +36,3 @@ bingo_grid <- function() {
     key = forcats::fct_relevel(key, "B", "I", "N", "G", "O")
   )
 }
-
-

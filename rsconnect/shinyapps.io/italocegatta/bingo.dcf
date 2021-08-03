@@ -5,9 +5,9 @@ account: italocegatta
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 4446150
-bundleId: 4878012
+bundleId: 4879828
 url: https://italocegatta.shinyapps.io/bingo/
-when: 1627858380.89831
-lastSyncTime: 1627858380.89831
+when: 1627908260.51674
+lastSyncTime: 1627908260.51674
 asMultiple: FALSE
 asStatic: FALSE

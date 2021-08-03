@@ -2,10 +2,10 @@
 % Please edit documentation in R/sample_numbers.R
 \name{bingo_grid}
 \alias{bingo_grid}
-\title{Grid of Bingo's numbers}
+\title{Grid of Bingo numbers}
 \usage{
 bingo_grid()
 }
 \description{
-Grid of Bingo's numbers
+Grid of Bingo numbers
 }

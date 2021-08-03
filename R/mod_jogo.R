@@ -15,10 +15,11 @@ mod_jogo_ui <- function(id){
     
     fluidRow(
       column(
-        1,
+        2,
         shinyWidgets::actionBttn(
           ns("sortear"), "Sortear",
-          style = "fill", color = "primary", icon = icon("refresh")
+          style = "fill", color = "primary", icon = icon("refresh"),
+          size = "lg", block = TRUE
         )
       ),
       column(
@@ -28,7 +29,7 @@ mod_jogo_ui <- function(id){
         )
       ),
       column(
-        9,
+        8,
         shinydashboard::box(
           width = 12, height = "100px", status = "success",
           textOutput(ns("num"))
@@ -88,7 +89,7 @@ mod_jogo_server <- function(id){
         v <- dplyr::last(reac_vec_drawn_labels())
       }
       
-      shinydashboard::valueBox(v, "Último número", color = "green")
+      shinydashboard::valueBox(v, "Último número", color = "green", width = 12)
       
     })
     

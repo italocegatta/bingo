@@ -22,15 +22,14 @@ app_ui <- function(request) {
         shinydashboard::sidebarMenu(
           
           shinydashboard::menuItem(
-            "Jogar",
-            tabName = "jogo",
-            icon = icon("play-circle")
-          ),
-          
-          shinydashboard::menuItem(
             "Gerador de cartelas",
             tabName = "cartela",
             icon = icon("table")
+          ),
+          shinydashboard::menuItem(
+            "Jogar",
+            tabName = "jogo",
+            icon = icon("play-circle")
           )
         )
       ),
@@ -39,7 +38,8 @@ app_ui <- function(request) {
         
         shinydashboard::tabItems(
           shinydashboard::tabItem(
-            tabName = "cartela"
+            tabName = "cartela",
+            mod_cartela_ui("cartela_ui_1")
           ),
           
           shinydashboard::tabItem(
